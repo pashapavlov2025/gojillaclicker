@@ -1,0 +1,24 @@
+# Зависимости и сборки
+node_modules/
+.next/
+dist/
+build/
+out/
+.vercel/
+__pycache__/
+*.pyc
+.venv/
+# Секреты — только локально (копия в бэкапе на Диске)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.claude/settings.local.json
+# Тяжёлые бинарники — только в бэкапе на Диске
+*.pbix
+*.mp4
+*.mov
+.DS_Store
+*.pptx
+*.pdf
